@@ -11,6 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 5. I used factory to generate the add component instead of the traditional way.
 6. I replicated an angular function to connect the sorting of the components with json object( if you sorted the components the contacts array will be sorted as well)
 7. I used lazy loading to load the contacts module.
+8. You can check Contacts from Review contacts page.
 
 ## Development server
 
