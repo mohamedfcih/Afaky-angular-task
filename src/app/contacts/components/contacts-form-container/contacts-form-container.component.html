@@ -1,2 +1,27 @@
+<div class="container">
+  <h2>Prefered Contacts</h2>
+  <div class="content">
+    <form  [formGroup]="form" class="move-items">
+      <div cdkDropList (cdkDropListDropped)="drop($event)">
+        <ng-container #cmpContainer></ng-container>
+    </div>
+      <div class="btn-cont">
+        <button mat-stroked-button (click)="addContact()">
+          <mat-icon>add</mat-icon> ADD CONTACT
+        </button>
+      </div>
+    </form>
+    <div class="jsonData">
+      <pre>{{form.value|json}}</pre>
+    </div>
 
-<app-contacts-form-base></app-contacts-form-base>
+  </div>
+  <div class="button-container">
+  <button mat-raised-button (click)="navigateToContacts()">
+   REVIEW CONTACTS
+  </button>
+</div>
+
+</div>
+
+

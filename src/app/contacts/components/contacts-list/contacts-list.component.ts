@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ContactsService } from '../../services/contacts.service';
 
 @Component({
   selector: 'app-contacts-list',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contacts-list.component.css']
 })
 export class ContactsListComponent implements OnInit {
+contacts!:[];
+displayedColumns: string[] = ['name', 'phone', 'country', 'city'];
 
-  constructor() { }
+  constructor(private contactsService :ContactsService) { }
 
   ngOnInit(): void {
+    this.contacts = JSON.parse(localStorage.getItem('contacts') || '{}')
   }
 
 }

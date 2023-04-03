@@ -1,0 +1,16 @@
+{
+    "contacts": [
+      {
+        "name": "John Doe",
+        "phone": "1234567891",
+        "country": "Saudi Arabia",
+        "city": "Riyadh"
+      },
+      {
+        "name": "John Doe 2",
+        "phone": "01011223344",
+        "country": "Egypt",
+        "city": "Cairo"
+      }
+    ]
+  }

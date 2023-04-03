@@ -1,0 +1,19 @@
+{
+    "countries": [
+      {
+        "code": "EG",
+        "phone": "+20",
+        "name": "Egypt"
+      },
+      {
+        "code": "SA",
+        "phone": "+966",
+        "name": "Saudi Arabia"
+      },
+      {
+        "code": "UAE",
+        "phone": "+971",
+        "name": "United Arab Emirates"
+      }
+    ]
+  }

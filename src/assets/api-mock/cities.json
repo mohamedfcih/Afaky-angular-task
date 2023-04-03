@@ -1,0 +1,16 @@
+{
+    "cities": [
+      {
+        "code": "Egypt",
+        "cities": ["Cairo", "Alex"]
+      },
+      {
+        "code": "Saudi Arabia",
+        "cities": ["Riyadh", "Makka"]
+      },
+      {
+        "code": "United Arab Emirates",
+        "cities": ["Abu Dhabi", "Sharjah"]
+      }
+    ]
+  }
