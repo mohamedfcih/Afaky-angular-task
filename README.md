@@ -2,6 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
 
+## Key Features
+
+1. You can add new contact by clicking add contact button.
+2. You can drag and drop cards (contact forms) to sort them.
+3. You can sort contacts by drag and drop cards
+4. Display contacts from json file into the form array.
+5. I used factory to generate the add component instead of the traditional way.
+6. I replicated an angular function to connect the sorting of the components with json object( if you sorted the components the contacts array will be sorted as well)
+7. I used lazy loading to load the contacts module.
+8. You can check Contacts from Review contacts page.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
